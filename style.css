@@ -41,6 +41,7 @@ main>.left legend{
     color: black;
     font-weight: 600;
     margin: 0.5rem 0;
+    font-size: large;
 }
 main>.left fieldset{
     border: none;
@@ -81,4 +82,18 @@ main>.right>.block1{
 }
 .print{
     display: none;
+}
+label {
+    width: 105px;
+    height: 20px;
+    margin: 0.2cm;
+    display: inline-block
+}
+input{
+    width: 150px;
+    height: 20px;
+}
+textarea{
+    width: 150px;
+    height: 80px
 }
