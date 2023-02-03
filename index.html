@@ -13,71 +13,71 @@
         <div class="left">
             <form>
                 <!-- Name , Email , Phone , Github , Linkedin -->
-                <label>Name :</label>
-                <input type="text" placeholder="Name">
+                <label for="name">Name :</label>
+                <input id="name" type="text" placeholder="Name" name="name" value="">
                 <br>
-                <label>Email :</label>
-                <input type="email" placeholder="Email">
+                <label for="email">Email :</label>
+                <input id="email" type="email" placeholder="Email" email="email" value="">
                 <br>
-                <label>Phone :</label>
-                <input type="tel" placeholder="Phone">
+                <label for="tel">Phone :</label>
+                <input id="tel" type="tel" placeholder="Phone" tel="tel" value="">
                 <br>
-                <label>Github :</label>
-                <input type="url" placeholder="Github Link">
+                <label for="github">Github :</label>
+                <input id="github" type="url" placeholder="Github Link" github="github" value="">
                 <br>
-                <label>Linkedin :</label>
-                <input type="urlt" placeholder="Linkedin Link">
+                <label for="linkedin">Linkedin :</label>
+                <input id="linkedin" type="url" placeholder="Linkedin Link" linkedin="linkedin" value="">
                 <br>
                 <fieldset>
                     <legend>Education</legend>
                     <!-- Degree , College , Starting Year , Passing Year , CGPA -->
-                    <label>Degree :</label>
-                    <input type="text" placeholder="Degree">
+                    <label for="degree">Degree :</label>
+                    <input id="degree" type="text" placeholder="Degree" degree="degree" value="">
                     <br>
-                    <label>College :</label>
-                    <input type="text" placeholder="College">
+                    <label for="college">College :</label>
+                    <input id="college" type="text" placeholder="College" college="college" value="">
                     <br>
-                    <label>Starting Year :</label>
-                    <input type="date" placeholder="Starting Year">
+                    <label for="startingYear">Starting Year :</label>
+                    <input id="startingYear" type="date" placeholder="Starting Year" startingYear="startingYear" value="">
                     <br>
-                    <label>Passing Year :</label>
-                    <input type="date" placeholder="Passing Year">
+                    <label for="passingYear">Passing Year :</label>
+                    <input id="passingYear" type="date" placeholder="Passing Year" passingYear="passingYear" value="">
                     <br>
-                    <label>CGPA :</label>
-                    <input type="number" placeholder="CGPA">
+                    <label for="cgpa">CGPA :</label>
+                    <input id="cgpa" type="number" placeholder="CGPA" cgpa="cgpa" value="">
                 </fieldset>
                 <fieldset>
                     <legend>Skills</legend>
                     <!-- skills -->
-                    <label>Skills :</label>
-                    <textarea></textarea>
+                    <label for="skills">Skills :</label>
+                    <textarea id="skills" type="text" placeholder="skills" skills="skills" value=""></textarea>
                 </fieldset>
                 <fieldset>
                     <legend>Projects</legend>
                     <!-- Project , Description , Link -->
-                    <label>Projects :</label>
-                    <input type="text" placeholder="Projects">
+                    <label for="projects">Projects :</label>
+                    <input id="projects" type="text" placeholder="Projects" projects="projects" value="">
                     <br>
-                    <label>Description :</label>
-                    <textarea></textarea>
+                    <label for="pDescription">Description :</label>
+                    <textarea id="pDescription" type="text" placeholder="Description" pDescription="pDescription" value=""></textarea>
                     <br>
-                    <label>Link :</label>
-                    <input type="url" placeholder="Project Link">
+                    <label for="link">Link :</label>
+                    <input id="link" type="url" placeholder="Project Link" link="link" value="">
                 </fieldset>
                 <fieldset>
                     <legend>Experience</legend>
                     <!-- Company , Designation , Duration , Description -->
-                    <label>Company :</label>
-                    <input type="text" placeholder="Company Details">
+                    <label for="company">Company :</label>
+                    <input id="company" type="text" placeholder="Company Details" company="company" value="">
                     <br>
-                    <label>Designation :</label>
-                    <input type="text" placeholder="Designation">
+                    <label for="designaton">Designation :</label>
+                    <input id="designation" type="text" placeholder="Designation" designation="designation" value="">
                     <br>
-                    <label>Duration :</label>
-                    <input type="num" placeholder="Duration">
+                    <label for="duration">Duration :</label>
+                    <input id="duration" type="num" placeholder="Duration" duration="duration" value="">
                     <br>
-                    <label>Description :</label>
-                    <textarea></textarea>
+                    <label for="eDescription">Description :</label>
+                    <textarea id="eDescription" type="text" placeholder="Description" eDescription="eDescription" value=""></textarea>
                 </fieldset>
                 <button type="submit" class="btn">submit</button>
                 <button type="reset" class="btn">reset</button>
@@ -88,6 +88,8 @@
             <div class="block1">
                 <!-- Name -->
                 <!--Email , Phone , Github , Linkedin  -->
+                <h2 id="name_resume"></h2>
+                <p id="emailId"></p>
             </div>
             <div class="block2">
                 <h2>Education</h2>
