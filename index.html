@@ -55,29 +55,29 @@
                 <fieldset>
                     <legend>Projects</legend>
                     <!-- Project , Description , Link -->
-                    <label for="projects">Projects :</label>
-                    <input id="projects" type="text" placeholder="Projects" projects="projects" value="">
+                    <label for="project">Projects :</label>
+                    <input id="project" type="text" placeholder="Projects" project="project" value="">
                     <br>
                     <label for="pDescription">Description :</label>
                     <textarea id="pDescription" type="text" placeholder="Description" pDescription="pDescription" value=""></textarea>
                     <br>
-                    <label for="link">Link :</label>
-                    <input id="link" type="url" placeholder="Project Link" link="link" value="">
+                    <label for="plink">Link :</label>
+                    <input id="plink" type="url" placeholder="Project Link" plink="plink" value="">
                 </fieldset>
                 <fieldset>
                     <legend>Experience</legend>
                     <!-- Company , Designation , Duration , Description -->
-                    <label for="company">Company :</label>
-                    <input id="company" type="text" placeholder="Company Details" company="company" value="">
+                    <label for="ecompany">Company :</label>
+                    <input id="ecompany" type="text" placeholder="Company Details" ecompany="ecompany" value="">
                     <br>
-                    <label for="designaton">Designation :</label>
-                    <input id="designation" type="text" placeholder="Designation" designation="designation" value="">
+                    <label for="edesignaton">Designation :</label>
+                    <input id="edesignation" type="text" placeholder="Designation" edesignation="edesignation" value="">
                     <br>
-                    <label for="duration">Duration :</label>
-                    <input id="duration" type="num" placeholder="Duration" duration="duration" value="">
+                    <label for="eduration">Duration :</label>
+                    <input id="eduration" type="num" placeholder="Duration" eduration="eduration" value="">
                     <br>
-                    <label for="eDescription">Description :</label>
-                    <textarea id="eDescription" type="text" placeholder="Description" eDescription="eDescription" value=""></textarea>
+                    <label for="edescription">Description :</label>
+                    <textarea id="edescription" type="text" placeholder="Description" edescription="edescription" value=""></textarea>
                 </fieldset>
                 <button type="submit" class="btn">submit</button>
                 <button type="reset" class="btn">reset</button>
@@ -89,20 +89,38 @@
                 <!-- Name -->
                 <!--Email , Phone , Github , Linkedin  -->
                 <h2 id="name_resume"></h2>
-                <p id="emailId"></p>
+                <p id="email_id"></p> <p id="phone_num"></p> <p id="git_hub"></p> <p id="linked_in"></p>
             </div>
             <div class="block2">
                 <h2>Education</h2>
+                <hr>
+                <p id="degree_"></p>
+                <p id="college_"></p>
+                <p id="starting_year"></p>
+                <p id="passing_year"></p>
+                <p id="cgpa_"></p>
             </div>
             <div class="block3">
+                <h2>Skills</h2>
+                <hr>
+                <p id="skills_"></p>
             </div>
             <div class="block4">
                 <h2>Project</h2>
+                <hr>
+                <p id="project_"></p>
+                <p id="pdescription_"></p>
+                <p id="link_"></p>
             </div>
             <div class="block5">
                 <h2>Experience</h2>
+                <hr>
+                <p id="company_"></p>
+                <p id="designation_"></p>
+                <p id="duration_"></p>
+                <p id="eDescription_"></p>
             </div>
-            <button class="btn print" onclick="handlePrint()">Print</button>
+            <button class="btn Print" onclick="handlePrint()">Print</button>
         </div>
     </main>
 

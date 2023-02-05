@@ -5,6 +5,22 @@ form.addEventListener("submit", handleSubmit);
 // eg.
 const name = document.getElementById("name");
 const tel = document.getElementById("tel");
+const github = document.getElementById("github");
+const linkedin = document.getElementById("linkedin");
+const degree = document.getElementById("degree");
+const college = document.getElementById("college");
+const startingYear = document.getElementById("startingYear");
+const passingYear = document.getElementById("passingYear");
+const cgpa = document.getElementById("cgpa");
+const skills = document.getElementById("skills");
+const project = document.getElementById("project");
+const pdescription = document.getElementById("pDescription");
+const link = document.getElementById("link");
+const company = document.getElementById("company");
+const designation = document.getElementById("designation");
+const duration = document.getElementById("duration");
+const eDescription = document.getElementById("eDescription");
+
 
 function handleSubmit(e) {
   e.preventDefault();
@@ -25,65 +41,85 @@ function handleSubmit(e) {
     var github = document.getElementById("github").value;
     document.getElementById("git_hub").innerHTML = github
 
-    var email = document.getElementById("email").value;
-    document.getElementById("email_id").innerHTML = email
+    var linkedin = document.getElementById("linkedin").value;
+    document.getElementById("linked_in").innerHTML = linkedin
 
-    var email = document.getElementById("email").value;
-    document.getElementById("email_id").innerHTML = email
+    var degree = document.getElementById("degree").value;
+    document.getElementById("degree_").innerHTML = degree
 
-    var email = document.getElementById("email").value;
-    document.getElementById("email_id").innerHTML = email
+    var college = document.getElementById("college").value;
+    document.getElementById("college_").innerHTML = college
 
-    var email = document.getElementById("email").value;
-    document.getElementById("email_id").innerHTML = email
+    var startingYear = document.getElementById("startingYear").value;
+    document.getElementById("starting_year").innerHTML = startingYear
 
-    var email = document.getElementById("email").value;
-    document.getElementById("email_id").innerHTML = email
+    var passingYear = document.getElementById("passingYear").value;
+    document.getElementById("passing_year").innerHTML = passingYear
 
-    var email = document.getElementById("email").value;
-    document.getElementById("email_id").innerHTML = email
+    var cgpa = document.getElementById("cgpa").value;
+    document.getElementById("cgpa_").innerHTML = cgpa
 
-    var email = document.getElementById("email").value;
-    document.getElementById("email_id").innerHTML = email
+    var skills = document.getElementById("skills").value;
+    document.getElementById("skills_").innerHTML = skills
 
-    var email = document.getElementById("email").value;
-    document.getElementById("email_id").innerHTML = email
+    var project = document.getElementById("project").value;
+    document.getElementById("project_").innerHTML = project
 
-    var email = document.getElementById("email").value;
-    document.getElementById("email_id").innerHTML = email
+    var pDescription = document.getElementById("pDescription").value;
+    document.getElementById("pdescription_").innerHTML = pDescription
 
-    var email = document.getElementById("email").value;
-    document.getElementById("email_id").innerHTML = email
+    var plink = document.getElementById("plink").value;
+    document.getElementById("link_").innerHTML = plink
 
-    var email = document.getElementById("email").value;
-    document.getElementById("email_id").innerHTML = email
+    var ecompany = document.getElementById("ecompany").value;
+    document.getElementById("company_").innerHTML = ecompany
+
+    var edesignaton = document.getElementById("edesignaton").value;
+    document.getElementById("designaton_").innerHTML = edesignaton
+
+    var eduration = document.getElementById("eduration").value;
+    document.getElementById("duration_").innerHTML = eduration
+
+    var edescription = document.getElementById("edescription").value;
+    document.getElementById("eDescription_").innerHTML = edescription
 
 
     document.getElementById("name").value = '';
     document.getElementById("email").value = '';
     document.getElementById("tel").value = '';
     document.getElementById("github").value = '';
-    document.getElementById("tel").value = '';
-    document.getElementById("tel").value = '';
-    document.getElementById("tel").value = '';
-    document.getElementById("tel").value = '';
-    document.getElementById("tel").value = '';
-    document.getElementById("tel").value = '';
-    document.getElementById("tel").value = '';
-    document.getElementById("tel").value = '';
+    document.getElementById("linkedin").value = '';
+    document.getElementById("degree").value = '';
+    document.getElementById("college").value = ''; 
+    document.getElementById("startingYear").value = '';
+    document.getElementById("passingYear").value = '';
+    document.getElementById("cgpa").value = '';
+    document.getElementById("skills").value = '';
+    document.getElementById("project").value = '';
+    document.getElementById("pDescription").value = '';
+    document.getElementById("plink").value = '';
+    document.getElementById("company").value = '';
+    document.getElementById("designaton").value = '';
+    document.getElementById("duration").value = '';
+    document.getElementById("eDescription").value = '';
 
-  // //   similarly for all the other fields  
 }
 
 function handleLeft() {
   const left = document.querySelector(".left");
+  left.style.display = "none";
   const right = document.querySelector(".right");
+  right.style.width = "100%";
   const print = document.querySelector(".print");
+  print.style.display = "block";
   // write more codes here
 }
 function handlePrint() {
   const right = document.querySelector(".right");
+  right.style.width = "100%";
   const left = document.querySelector(".left");
+  left.style.display = "block";
   const print = document.querySelector(".print");
+  print.style.display = "none"
   // write more codes here
 }

@@ -68,7 +68,7 @@ main>.right{
     height: 100%;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
     gap: 1rem;
 }
