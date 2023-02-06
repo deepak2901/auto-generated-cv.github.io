@@ -15,12 +15,11 @@ const cgpa = document.getElementById("cgpa");
 const skills = document.getElementById("skills");
 const project = document.getElementById("project");
 const pdescription = document.getElementById("pDescription");
-const link = document.getElementById("link");
-const company = document.getElementById("company");
-const designation = document.getElementById("designation");
-const duration = document.getElementById("duration");
-const eDescription = document.getElementById("eDescription");
-
+const plink = document.getElementById("plink");
+const ecompany = document.getElementById("ecompany");
+const expDesignation = document.getElementById("expDesignation");
+const expDuration = document.getElementById("expDuration");
+const expDescription = document.getElementById("expDescription");
 
 function handleSubmit(e) {
   e.preventDefault();
@@ -72,16 +71,16 @@ function handleSubmit(e) {
     document.getElementById("link_").innerHTML = plink
 
     var ecompany = document.getElementById("ecompany").value;
-    document.getElementById("company_").innerHTML = ecompany
+    document.getElementById("ecompany_").innerHTML = ecompany
 
-    var edesignaton = document.getElementById("edesignaton").value;
-    document.getElementById("designaton_").innerHTML = edesignaton
+    var expDesignation = document.getElementById("expDesignation").value;
+    document.getElementById("exp_designation").innerHTML = expDesignation
 
-    var eduration = document.getElementById("eduration").value;
-    document.getElementById("duration_").innerHTML = eduration
+    var expDuration = document.getElementById("expDuration").value;
+    document.getElementById("exp_duration").innerHTML = expDuration
 
-    var edescription = document.getElementById("edescription").value;
-    document.getElementById("eDescription_").innerHTML = edescription
+    var expDescription = document.getElementById("expDescription").value;
+    document.getElementById("exp_description").innerHTML = expDescription
 
 
     document.getElementById("name").value = '';
@@ -98,11 +97,11 @@ function handleSubmit(e) {
     document.getElementById("project").value = '';
     document.getElementById("pDescription").value = '';
     document.getElementById("plink").value = '';
-    document.getElementById("company").value = '';
-    document.getElementById("designaton").value = '';
-    document.getElementById("duration").value = '';
-    document.getElementById("eDescription").value = '';
-
+    document.getElementById("ecompany").value = '';
+    document.getElementById("expDesignation").value = '';
+    document.getElementById("expDuration").value = '';
+    document.getElementById("expDescription").value = '';
+    
 }
 
 function handleLeft() {
